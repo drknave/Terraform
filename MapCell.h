@@ -21,8 +21,8 @@ public:
 };
 
 MapCell::MapCell() {
-	setUtfCharacter("");
-	setCellColor("");
+	setUtfCharacter("X");
+	setCellColor("\x1B[0m");
 }
 
 MapCell::MapCell(string character, string color) {
